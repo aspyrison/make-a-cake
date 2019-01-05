@@ -1,0 +1,46 @@
+.app {
+ background: #e5df67;
+}
+
+.app-header {
+  background-color: #c576d3;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.app-footer {
+  background-color: #000000;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.intro-guide-image {
+  width: 175px; 
+  height: 175px;
+}
+
+.carousel-image {
+  max-height: 375px;
+}
+
+.carousel-Conatiner {
+  height: 250px;
+  width: 300px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "peace-of-cake",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-responsive-carousel": "^3.1.45",
+    "react-scripts": "2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitprem10/make-a-cake.git"
+  },
+  "keywords": [
+    "make-a-cake"
+  ],
+  "author": "Amit Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amitprem10/make-a-cake/issues"
+  },
+  "homepage": "https://github.com/amitprem10/make-a-cake#readme"
+}
