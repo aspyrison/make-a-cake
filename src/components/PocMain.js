@@ -6,7 +6,7 @@ import PocCarousel from './PocCarousel';
 export default class PocMain extends React.Component {
     render() {
        return (
-          <div>
+         <div className='app-Main'>
             <WhatIsPoc />
             <PocCarousel />
             <PocIntro />

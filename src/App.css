@@ -1,25 +1,38 @@
 .app {
- background: #e5df67;
+ /* background: #e5df67; */
+ background-color: #eee;
 }
 
 .app-header {
-  background-color: #c576d3;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
   min-height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  /* background-color: #c576d3; */
 }
 
 .app-footer {
-  background-color: #000000;
   min-height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  box-sizing: border-box;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 35px;
+  /* background-color: #000000; */
+}
+
+.app-Main {
+  min-height: 500px;
+  background-color: #e5df67;
 }
 
 .intro-guide-image {
@@ -28,12 +41,8 @@
 }
 
 .carousel-image {
+  max-width: 550px;
   max-height: 375px;
-}
-
-.carousel-Conatiner {
-  height: 250px;
-  width: 300px;
 }
 
 @keyframes App-logo-spin {
